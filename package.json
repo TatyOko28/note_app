@@ -1,5 +1,5 @@
 {
-  "name": "er",
+  "name": "notes-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "@reduxjs/toolkit": "^2.0.1",
+    "@types/node": "20.10.5",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^9.0.4",
+    "sass": "^1.69.5",
+    "typescript": "5.3.3"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3"
+    "@types/redux-logger": "^3.0.12",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4"
   }
 }
